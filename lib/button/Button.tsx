@@ -1,9 +1,9 @@
-import React from "react"
+import type { ReactNode } from "react"
 
 interface ButtonProps {
-  children: React.ReactNode
+  children: ReactNode
 }
 
 export const Button: React.FC<ButtonProps> = ({ children }) => {
-  return <button>{children}</button>
+  return <button className="bg-zinc-900 text-white">{children}</button>
 }
