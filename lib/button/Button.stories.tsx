@@ -12,6 +12,6 @@ type Story = StoryObj<typeof Button>
 
 export const Default: Story = {
   args: {
-    children: "Test Button!"
+    children: "Default"
   }
 }
